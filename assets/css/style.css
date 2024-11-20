@@ -7,15 +7,16 @@
     --primary-color: #563e33; /* dark brown*/
     --secondary-color: #241e19; /*almost black*/
     --highlight-color: #9c8077; /*light beige*/
-    --light-highlight-color: #a8a8a7; /*light grey*/
+    --light-highlight-color: #d8d5d3; /*light grey*/
 }
 /* Global styles */
 body {
 margin: 0;
 font-family: var(--primary-font);
-color: var(--secondary-color);
+color: var(--primary-color);
 display: flex;
 flex-direction: row;
+background-color: var(--light-highlight-color);
 }
 
 header {
