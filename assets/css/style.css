@@ -9,3 +9,24 @@
     --highlight-color: #9c8077; /*light beige*/
     --light-highlight-color: #a8a8a7; /*light grey*/
 }
+/* Global styles */
+body {
+margin: 0;
+font-family: var(--primary-font);
+color: var(--secondary-color);
+display: flex;
+flex-direction: row;
+}
+
+header {
+    #hero {
+        background-color: #dbdcde;
+        background-image: url("../images/2148155458.jpg");
+        background-size: cover;
+        background-position: 50% 70%;
+        min-height: 500px;
+        padding: 5% 7%;
+    }
+}
+
+
